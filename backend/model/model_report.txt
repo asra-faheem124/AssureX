@@ -1,0 +1,48 @@
+AssureX Claim Engine - Model Comparison Report
+
+=======================================================
+
+
+Algorithm: RandomForest
+  Validation Accuracy : 0.8667
+  Validation Precision: 0.8674
+  Validation Recall   : 0.8667
+  Validation F1-score : 0.8669
+
+Algorithm: LogisticRegression
+  Validation Accuracy : 0.8533
+  Validation Precision: 0.8532
+  Validation Recall   : 0.8533
+  Validation F1-score : 0.8531
+
+Algorithm: SVM
+  Validation Accuracy : 0.6489
+  Validation Precision: 0.6320
+  Validation Recall   : 0.6489
+  Validation F1-score : 0.6339
+
+
+SELECTED MODEL: RandomForest
+
+
+Final Test Set Evaluation (RandomForest)
+  Test Accuracy: 0.8978
+  Test F1-score: 0.8970
+
+Confusion Matrix (rows=actual, cols=predicted):
+  Classes order: ['Invalid', 'ManualReview', 'Valid']
+[[65 10  0]
+ [ 5 63  7]
+ [ 0  1 74]]
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+     Invalid       0.93      0.87      0.90        75
+ManualReview       0.85      0.84      0.85        75
+       Valid       0.91      0.99      0.95        75
+
+    accuracy                           0.90       225
+   macro avg       0.90      0.90      0.90       225
+weighted avg       0.90      0.90      0.90       225
