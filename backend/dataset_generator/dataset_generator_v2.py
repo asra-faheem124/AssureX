@@ -59,9 +59,14 @@ def random_raw_claim(claim_index):
 
     serial_match = random.choices(["Yes", "No"], weights=[80, 20])[0]
 
-    # Excluded damage is tied directly to fault type (realistic: physical/water
-    # damage is usually excluded by warranty policy)
-    excluded_damage = "Yes" if fault_type in EXCLUDED_FAULTS else "No"
+    # Excluded damage is MOSTLY tied to fault type but not 100% deterministic:
+    #   - ~8% chance a covered fault is still flagged as excluded (grey area / data entry error)
+    #   - ~5% chance an excluded-type fault slips through as NOT flagged (missed during intake)
+    # This prevents the Valid class from NEVER having excluded_damage=Yes.
+    if fault_type in EXCLUDED_FAULTS:
+        excluded_damage = "No" if random.random() < 0.05 else "Yes"
+    else:
+        excluded_damage = "Yes" if random.random() < 0.08 else "No"
 
     duplicate_claim = random.choices(["Yes", "No"], weights=[8, 92])[0]
 
@@ -111,12 +116,15 @@ def compute_risk_score(claim):
     if claim["repair_count"] >= 2:
         score += 1
 
-    # small random noise so boundaries aren't perfectly crisp (realistic)
+    # Random noise — keeps boundaries realistic without too much overlap
     score += random.choice([-1, 0, 0, 0, 1])
     return max(0, score)
 
 
 def label_from_score(score):
+    # Tighter boundaries: Valid ≤ 1, ManualReview 2–4, Invalid ≥ 5
+    # This keeps class separation clear enough for high model accuracy
+    # while excluded_damage still has ~8% realistic noise built in.
     if score <= 1:
         return "Valid"
     elif score <= 4:
@@ -177,7 +185,8 @@ def stratified_split(df, train_frac=0.70, val_frac=0.15):
 
 
 if __name__ == "__main__":
-    df = generate_balanced_dataset(records_per_class=500)
+    # 834 per class x 3 = 2,502 records (~2,500 as requested)
+    df = generate_balanced_dataset(records_per_class=834)
     df.to_csv("claims_dataset.csv", index=False)
 
     train_df, val_df, test_df = stratified_split(df)

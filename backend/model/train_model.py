@@ -28,9 +28,13 @@ import joblib
 import os
 
 from sklearn.preprocessing import LabelEncoder
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import (RandomForestClassifier, GradientBoostingClassifier,
+                               ExtraTreesClassifier, AdaBoostClassifier)
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import (accuracy_score, precision_score, recall_score,
                               f1_score, confusion_matrix, classification_report)
 
@@ -113,9 +117,14 @@ print(f"Features used ({len(feature_cols)}): {feature_cols}")
 # 4. Train & compare 3 algorithms on the VALIDATION set
 # ---------------------------------------------------------------------
 candidates = {
-    "RandomForest": RandomForestClassifier(n_estimators=200, random_state=42),
-    "LogisticRegression": LogisticRegression(max_iter=1000, random_state=42),
-    "SVM": SVC(kernel="rbf", probability=True, random_state=42),
+    "RandomForest"       : RandomForestClassifier(n_estimators=200, random_state=42),
+    "ExtraTrees"         : ExtraTreesClassifier(n_estimators=200, random_state=42),
+    "GradientBoosting"   : GradientBoostingClassifier(n_estimators=150, random_state=42),
+    "LogisticRegression" : LogisticRegression(max_iter=1000, random_state=42),
+    "SVM"                : SVC(kernel="rbf", probability=True, random_state=42),
+    "KNN"                : KNeighborsClassifier(n_neighbors=7),
+    "DecisionTree"       : DecisionTreeClassifier(random_state=42),
+    "NaiveBayes"         : GaussianNB(),
 }
 
 results = {}
