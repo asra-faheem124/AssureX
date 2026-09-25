@@ -27,9 +27,11 @@ so nothing else in the pipeline (card generation script, Flask route)
 needs to change.
 """
 
+import os
+import platform
 from PIL import Image, ImageDraw, ImageFont
 
-FONT_DIR = "/usr/share/fonts/truetype/dejavu/"
+_HERE = os.path.dirname(os.path.abspath(__file__))
 
 GREEN = "#2E7D32"
 RED = "#C62828"
@@ -108,11 +110,38 @@ RISK_INDICATORS = [
 
 
 def _load_font(size, bold=False):
-    try:
-        filename = "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf"
-        return ImageFont.truetype(FONT_DIR + filename, size)
-    except Exception:
-        return ImageFont.load_default()
+    """
+    Cross-platform font loader.
+    Priority:
+      1. Bundled fonts in card_generator/fonts/ (portable, works everywhere)
+      2. Windows system fonts: Arial / Arial Bold (always present on Windows)
+      3. Linux system fonts: DejaVu (for deployment servers / Render / Railway)
+      4. PIL default bitmap font (last resort, tiny but never crashes)
+    """
+    deja_name = "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf"
+    win_name  = "arialbd.ttf"         if bold else "arial.ttf"
+
+    candidates = [
+        # 1. Bundled fonts next to this script
+        os.path.join(_HERE, "fonts", deja_name),
+        # 2. Windows system fonts (always available on any Windows machine)
+        os.path.join("C:/Windows/Fonts", win_name),
+        os.path.join("C:/Windows/Fonts", deja_name),
+        # 3. Linux / macOS system fonts
+        f"/usr/share/fonts/truetype/dejavu/{deja_name}",
+        f"/usr/share/fonts/truetype/msttcorefonts/{win_name}",
+        f"/Library/Fonts/{win_name}",
+    ]
+
+    for path in candidates:
+        if os.path.exists(path):
+            try:
+                return ImageFont.truetype(path, size)
+            except Exception:
+                continue
+
+    # Last resort — PIL built-in bitmap font (tiny, but never crashes)
+    return ImageFont.load_default()
 
 
 def _draw_risk_grid(draw, claim, top_y, margin, style):
