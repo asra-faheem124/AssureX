@@ -1,226 +1,376 @@
 claim_id,product_category,product_age_months,warranty_duration_months,warranty_status,fault_type,repair_count,authorized_repair,has_receipt,has_warranty_card,has_product_image,has_serial_evidence,missing_doc_count,serial_match,excluded_damage,duplicate_claim,purchase_date,claim_submission_date,class_label
-CLM00750,Mobile Phone,12,24,Active,Physical Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-09-18,2026-09-18,ManualReview
-CLM00006,Washing Machine,13,6,Expired,Overheating,1,No,No,Yes,Yes,Yes,1,Yes,No,Yes,2025-08-18,2026-09-22,Invalid
-CLM01464,Refrigerator,12,24,Active,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-09-11,2026-09-18,Valid
-CLM00595,Refrigerator,11,24,Active,Physical Damage,3,Yes,Yes,Yes,Yes,No,1,Yes,Yes,No,2025-10-15,2026-09-18,Invalid
-CLM01463,Mobile Phone,0,18,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-08-31,2026-09-15,Valid
-CLM00008,Refrigerator,8,6,Expired,Water Damage,0,Yes,No,Yes,Yes,Yes,1,No,Yes,No,2026-01-04,2026-09-16,Invalid
-CLM01114,Television,14,12,Expired,Physical Damage,0,Yes,Yes,Yes,No,Yes,1,Yes,Yes,No,2025-07-27,2026-09-22,Invalid
-CLM01227,Washing Machine,3,12,Active,Mechanical Failure,0,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2026-05-28,2026-09-23,Valid
-CLM00573,Refrigerator,15,12,Expired,Mechanical Failure,1,No,Yes,No,Yes,Yes,1,Yes,No,No,2025-06-18,2026-09-21,Invalid
-CLM00040,Mobile Phone,14,6,Expired,Water Damage,1,No,Yes,No,Yes,Yes,1,Yes,Yes,No,2025-07-17,2026-09-22,Invalid
-CLM01180,Laptop,25,18,Expired,Mechanical Failure,1,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2024-09-02,2026-09-14,ManualReview
-CLM00189,Washing Machine,11,12,Active,Electrical Fault,0,Yes,No,Yes,Yes,Yes,1,No,No,No,2025-10-26,2026-09-22,ManualReview
-CLM00949,Television,24,18,Expired,Water Damage,2,Yes,Yes,No,No,No,3,No,Yes,No,2024-09-11,2026-09-23,Invalid
-CLM00497,Refrigerator,23,24,Active,Electrical Fault,0,Yes,No,No,Yes,No,3,Yes,No,No,2024-10-30,2026-09-23,ManualReview
-CLM00417,Air Conditioner,16,12,Expired,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-05-27,2026-09-21,ManualReview
-CLM00961,Mobile Phone,18,18,Expired,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-03-26,2026-09-20,ManualReview
-CLM00191,Television,4,18,Active,Software Issue,0,Yes,No,Yes,Yes,No,2,Yes,No,No,2026-05-19,2026-09-15,ManualReview
-CLM01042,Refrigerator,26,18,Expired,Electrical Fault,2,No,No,Yes,No,Yes,2,Yes,No,No,2024-07-09,2026-09-18,Invalid
-CLM01453,Laptop,16,24,Active,Electrical Fault,1,No,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-05-31,2026-09-22,Valid
-CLM00575,Mobile Phone,31,24,Expired,Overheating,1,Yes,No,Yes,Yes,Yes,1,No,No,No,2024-02-10,2026-09-13,Invalid
-CLM01442,Mobile Phone,15,24,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-06-15,2026-09-19,Valid
-CLM00790,Refrigerator,16,18,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,Yes,2025-05-17,2026-09-13,ManualReview
-CLM01029,Mobile Phone,18,18,Expired,Overheating,0,Yes,Yes,Yes,Yes,No,1,No,No,No,2025-03-15,2026-09-19,Invalid
-CLM00226,Air Conditioner,29,24,Expired,Overheating,0,Yes,Yes,No,Yes,No,2,Yes,No,Yes,2024-05-03,2026-09-18,Invalid
-CLM00048,Laptop,0,12,Active,Mechanical Failure,2,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2026-09-01,2026-09-19,Valid
-CLM00890,Laptop,5,12,Active,Electrical Fault,0,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2026-04-10,2026-09-19,Valid
-CLM00254,Air Conditioner,33,24,Expired,Physical Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2023-12-24,2026-09-17,Invalid
-CLM00837,Refrigerator,19,18,Expired,Physical Damage,0,Yes,Yes,Yes,Yes,No,1,Yes,Yes,No,2025-02-23,2026-09-19,Invalid
-CLM00570,Air Conditioner,6,6,Expired,Physical Damage,0,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2026-03-07,2026-09-15,Invalid
-CLM00632,Mobile Phone,2,6,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-07-24,2026-09-18,Valid
-CLM00127,Mobile Phone,16,24,Active,Mechanical Failure,2,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-05-23,2026-09-14,Valid
-CLM01268,Television,7,12,Active,Overheating,1,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2026-01-30,2026-09-17,Valid
-CLM00415,Mobile Phone,4,12,Active,Electrical Fault,1,No,Yes,Yes,No,Yes,1,No,No,No,2026-05-14,2026-09-19,ManualReview
-CLM00381,Air Conditioner,6,18,Active,Mechanical Failure,2,No,Yes,No,Yes,Yes,1,Yes,No,Yes,2026-03-21,2026-09-15,Invalid
-CLM00391,Washing Machine,8,12,Active,Physical Damage,1,Yes,No,Yes,Yes,No,2,No,Yes,No,2026-01-14,2026-09-22,Invalid
-CLM01109,Washing Machine,2,12,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-07-19,2026-09-13,Valid
-CLM00483,Mobile Phone,9,6,Expired,Overheating,2,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2025-12-09,2026-09-19,Invalid
-CLM00119,Air Conditioner,9,18,Active,Mechanical Failure,0,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2025-12-07,2026-09-22,Valid
-CLM01348,Laptop,4,12,Active,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-05-21,2026-09-13,Valid
-CLM01314,Television,4,12,Active,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-05-11,2026-09-22,Valid
-CLM00530,Washing Machine,12,18,Active,Mechanical Failure,2,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-09-22,2026-09-19,Valid
-CLM01084,Washing Machine,10,6,Expired,Overheating,1,Yes,Yes,No,Yes,Yes,1,No,No,No,2025-11-13,2026-09-13,Invalid
-CLM01351,Laptop,1,6,Active,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-07-27,2026-09-19,Valid
-CLM00636,Refrigerator,10,6,Expired,Physical Damage,1,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2025-11-17,2026-09-18,Invalid
-CLM01325,Washing Machine,5,6,Active,Electrical Fault,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-03-28,2026-09-13,Valid
-CLM00953,Laptop,7,6,Expired,Physical Damage,0,Yes,No,No,Yes,Yes,2,Yes,Yes,No,2026-02-03,2026-09-15,Invalid
-CLM01034,Refrigerator,2,24,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-07-22,2026-09-17,ManualReview
-CLM00447,Mobile Phone,3,18,Active,Electrical Fault,0,Yes,No,No,Yes,Yes,2,Yes,No,No,2026-06-05,2026-09-23,ManualReview
-CLM00494,Mobile Phone,12,18,Active,Software Issue,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-09-24,2026-09-20,Valid
-CLM01137,Washing Machine,3,12,Active,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-06-20,2026-09-18,Valid
-CLM00203,Laptop,17,12,Expired,Overheating,1,Yes,Yes,No,Yes,Yes,1,No,No,No,2025-04-30,2026-09-15,Invalid
-CLM01022,Refrigerator,4,18,Active,Electrical Fault,2,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-04-30,2026-09-19,Valid
-CLM01443,Air Conditioner,7,18,Active,Mechanical Failure,0,Yes,No,Yes,No,Yes,2,Yes,No,No,2026-02-19,2026-09-21,Valid
-CLM01281,Refrigerator,11,18,Active,Overheating,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-10-17,2026-09-22,Valid
-CLM01488,Laptop,3,12,Active,Software Issue,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2026-06-05,2026-09-22,Valid
-CLM00338,Air Conditioner,26,18,Expired,Software Issue,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2024-07-18,2026-09-22,ManualReview
-CLM01107,Mobile Phone,1,6,Active,Mechanical Failure,1,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-08-12,2026-09-18,ManualReview
-CLM01450,Air Conditioner,20,24,Active,Electrical Fault,2,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-01-02,2026-09-20,Valid
-CLM00897,Air Conditioner,14,6,Expired,Water Damage,2,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2025-07-25,2026-09-23,Invalid
-CLM00550,Television,21,18,Expired,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2024-12-29,2026-09-20,Invalid
-CLM01125,Air Conditioner,3,12,Active,Electrical Fault,0,Yes,Yes,No,No,Yes,2,Yes,No,No,2026-06-14,2026-09-15,ManualReview
-CLM01171,Washing Machine,14,12,Expired,Overheating,1,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2025-07-14,2026-09-15,ManualReview
-CLM00577,Laptop,10,6,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-11-26,2026-09-16,ManualReview
-CLM00446,Laptop,13,12,Expired,Software Issue,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-08-21,2026-09-14,ManualReview
-CLM00962,Mobile Phone,23,24,Active,Software Issue,1,No,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-10-19,2026-09-22,Valid
-CLM00312,Television,4,6,Active,Water Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-05-22,2026-09-17,ManualReview
-CLM00799,Air Conditioner,9,18,Active,Overheating,0,Yes,Yes,No,Yes,No,2,Yes,No,No,2025-12-22,2026-09-21,ManualReview
-CLM00916,Refrigerator,17,24,Active,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-04-18,2026-09-21,ManualReview
-CLM01159,Mobile Phone,18,18,Expired,Electrical Fault,0,Yes,No,No,Yes,Yes,2,Yes,No,No,2025-03-16,2026-09-21,ManualReview
-CLM01355,Mobile Phone,18,24,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-04-01,2026-09-22,Valid
-CLM01337,Refrigerator,3,12,Active,Software Issue,0,Yes,No,Yes,No,Yes,2,Yes,No,No,2026-06-12,2026-09-17,Valid
-CLM00910,Refrigerator,13,18,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-08-29,2026-09-23,Valid
-CLM01012,Refrigerator,19,24,Active,Electrical Fault,2,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-02-17,2026-09-17,ManualReview
-CLM00515,Television,2,6,Active,Software Issue,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-07-15,2026-09-13,Valid
-CLM00855,Mobile Phone,11,6,Expired,Physical Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-10-13,2026-09-22,Invalid
-CLM01113,Television,3,12,Active,Electrical Fault,0,Yes,No,Yes,Yes,No,2,Yes,No,Yes,2026-06-20,2026-09-21,Invalid
-CLM01192,Mobile Phone,4,6,Active,Overheating,2,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-05-23,2026-09-16,ManualReview
-CLM00543,Refrigerator,12,24,Active,Software Issue,2,Yes,Yes,Yes,No,Yes,1,No,No,No,2025-09-08,2026-09-23,ManualReview
-CLM00201,Mobile Phone,4,6,Active,Overheating,1,Yes,Yes,No,Yes,No,2,Yes,No,No,2026-05-11,2026-09-14,ManualReview
-CLM00772,Laptop,19,24,Active,Physical Damage,1,No,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-02-14,2026-09-20,ManualReview
-CLM00821,Air Conditioner,1,12,Active,Software Issue,1,Yes,Yes,No,Yes,Yes,1,Yes,No,Yes,2026-08-19,2026-09-18,ManualReview
-CLM01312,Air Conditioner,5,12,Active,Overheating,3,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-04-23,2026-09-18,Valid
-CLM01332,Television,13,24,Active,Software Issue,1,Yes,No,Yes,No,Yes,2,Yes,No,No,2025-08-29,2026-09-14,Valid
-CLM00881,Refrigerator,14,6,Expired,Software Issue,0,Yes,No,Yes,No,Yes,2,Yes,No,No,2025-07-28,2026-09-15,Invalid
-CLM00438,Air Conditioner,10,12,Active,Water Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-10-30,2026-09-15,ManualReview
-CLM00490,Television,27,18,Expired,Physical Damage,2,Yes,Yes,Yes,Yes,No,1,Yes,Yes,No,2024-06-17,2026-09-22,Invalid
-CLM00384,Television,25,18,Expired,Physical Damage,2,Yes,Yes,Yes,No,Yes,1,Yes,Yes,No,2024-08-18,2026-09-13,Invalid
-CLM00137,Washing Machine,2,6,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-07-09,2026-09-21,Valid
-CLM00698,Air Conditioner,5,6,Active,Overheating,1,No,No,Yes,Yes,Yes,1,Yes,No,No,2026-04-19,2026-09-17,ManualReview
-CLM01462,Washing Machine,10,12,Active,Electrical Fault,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2025-11-27,2026-09-16,Valid
-CLM00103,Refrigerator,4,12,Active,Electrical Fault,0,Yes,No,No,Yes,Yes,2,Yes,No,No,2026-05-22,2026-09-16,Valid
-CLM00688,Laptop,8,12,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2026-01-19,2026-09-13,Valid
-CLM00842,Laptop,5,12,Active,Water Damage,0,Yes,No,Yes,Yes,Yes,1,No,Yes,No,2026-04-23,2026-09-20,Invalid
-CLM01054,Television,1,18,Active,Electrical Fault,3,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-08-10,2026-09-21,ManualReview
-CLM00764,Laptop,12,12,Expired,Software Issue,2,Yes,No,Yes,Yes,Yes,1,Yes,No,Yes,2025-09-07,2026-09-15,Invalid
-CLM00648,Laptop,20,12,Expired,Mechanical Failure,3,Yes,Yes,No,No,No,3,Yes,No,Yes,2025-01-02,2026-09-18,Invalid
-CLM00471,Mobile Phone,8,12,Active,Mechanical Failure,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-01-02,2026-09-20,Valid
-CLM00212,Mobile Phone,2,6,Active,Water Damage,1,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2026-07-03,2026-09-18,ManualReview
-CLM01129,Television,20,24,Active,Electrical Fault,3,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2025-01-13,2026-09-19,ManualReview
-CLM00445,Washing Machine,6,24,Active,Software Issue,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-03-01,2026-09-19,Valid
-CLM00735,Television,0,18,Active,Physical Damage,3,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-08-25,2026-09-23,ManualReview
-CLM01353,Washing Machine,15,24,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-06-22,2026-09-18,Valid
-CLM01419,Washing Machine,1,24,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-08-22,2026-09-13,Valid
-CLM00740,Mobile Phone,15,18,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-06-08,2026-09-15,Valid
-CLM00533,Refrigerator,11,6,Expired,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-10-22,2026-09-15,Invalid
-CLM01278,Television,0,12,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-09-11,2026-09-22,Valid
-CLM01304,Refrigerator,4,12,Active,Overheating,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-04-27,2026-09-22,Valid
-CLM01015,Television,14,12,Expired,Physical Damage,2,Yes,No,Yes,No,Yes,2,No,Yes,No,2025-07-05,2026-09-22,Invalid
-CLM00629,Washing Machine,4,6,Active,Physical Damage,0,Yes,Yes,No,No,No,3,Yes,Yes,No,2026-05-16,2026-09-16,Invalid
-CLM00192,Laptop,10,24,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-11-27,2026-09-20,Valid
-CLM00151,Washing Machine,11,12,Active,Mechanical Failure,1,No,Yes,Yes,Yes,No,1,Yes,No,No,2025-10-23,2026-09-19,ManualReview
-CLM01396,Refrigerator,14,18,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-07-16,2026-09-14,Valid
-CLM00503,Television,13,24,Active,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-08-22,2026-09-17,ManualReview
-CLM00975,Refrigerator,5,6,Active,Mechanical Failure,0,Yes,Yes,Yes,No,Yes,1,No,No,No,2026-04-10,2026-09-18,ManualReview
-CLM00084,Laptop,0,6,Active,Electrical Fault,1,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-09-12,2026-09-22,Valid
-CLM00367,Mobile Phone,15,12,Expired,Electrical Fault,2,No,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-06-07,2026-09-14,Invalid
-CLM00553,Washing Machine,2,12,Active,Software Issue,1,Yes,Yes,No,No,No,3,Yes,No,No,2026-07-05,2026-09-23,ManualReview
-CLM01158,Television,4,6,Active,Physical Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-05-03,2026-09-14,ManualReview
-CLM00927,Refrigerator,9,18,Active,Water Damage,2,Yes,Yes,Yes,No,Yes,1,Yes,Yes,No,2025-12-22,2026-09-18,Invalid
-CLM00337,Refrigerator,10,6,Expired,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,Yes,2025-11-11,2026-09-15,Invalid
-CLM01194,Television,21,24,Active,Mechanical Failure,0,Yes,Yes,No,Yes,Yes,1,No,No,No,2024-12-11,2026-09-14,ManualReview
-CLM00911,Air Conditioner,7,12,Active,Mechanical Failure,1,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-02-14,2026-09-22,ManualReview
-CLM01300,Air Conditioner,4,6,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2026-05-04,2026-09-19,Valid
-CLM00695,Washing Machine,13,6,Expired,Overheating,0,Yes,Yes,No,Yes,No,2,No,No,No,2025-08-06,2026-09-21,Invalid
-CLM00955,Air Conditioner,27,18,Expired,Water Damage,0,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2024-06-29,2026-09-14,Invalid
-CLM00096,Mobile Phone,28,24,Expired,Water Damage,1,Yes,Yes,Yes,No,Yes,1,Yes,Yes,No,2024-06-03,2026-09-17,Invalid
-CLM00470,Air Conditioner,3,18,Active,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-05-30,2026-09-22,ManualReview
-CLM00626,Refrigerator,15,18,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-06-03,2026-09-16,Valid
-CLM00479,Laptop,13,24,Active,Overheating,1,Yes,No,Yes,Yes,Yes,1,No,No,No,2025-08-07,2026-09-17,ManualReview
-CLM00722,Washing Machine,3,6,Active,Water Damage,1,Yes,Yes,Yes,Yes,No,1,Yes,Yes,No,2026-06-07,2026-09-22,Invalid
-CLM00205,Mobile Phone,4,24,Active,Overheating,2,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-04-30,2026-09-15,ManualReview
-CLM01303,Laptop,15,24,Active,Electrical Fault,0,Yes,No,Yes,Yes,No,2,Yes,No,No,2025-06-10,2026-09-20,Valid
-CLM01007,Refrigerator,7,6,Expired,Water Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-02-15,2026-09-15,Invalid
-CLM00599,Washing Machine,6,6,Expired,Physical Damage,0,Yes,No,No,Yes,Yes,2,No,Yes,No,2026-02-26,2026-09-18,Invalid
-CLM00950,Mobile Phone,4,12,Active,Mechanical Failure,2,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2026-05-09,2026-09-22,ManualReview
-CLM00398,Television,11,12,Active,Water Damage,2,Yes,Yes,Yes,Yes,Yes,0,No,Yes,No,2025-09-30,2026-09-14,Invalid
-CLM00998,Washing Machine,4,12,Active,Water Damage,0,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2026-04-27,2026-09-18,ManualReview
-CLM00400,Laptop,0,18,Active,Water Damage,0,Yes,Yes,Yes,No,Yes,1,Yes,Yes,No,2026-08-27,2026-09-16,ManualReview
-CLM00725,Washing Machine,8,12,Active,Overheating,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-01-07,2026-09-22,Valid
-CLM00803,Washing Machine,0,6,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-09-04,2026-09-20,ManualReview
-CLM00346,Washing Machine,4,6,Active,Software Issue,1,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-05-14,2026-09-21,Valid
-CLM00469,Refrigerator,15,6,Expired,Software Issue,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-06-15,2026-09-14,ManualReview
-CLM00130,Refrigerator,12,24,Active,Physical Damage,0,Yes,Yes,No,Yes,No,2,Yes,Yes,No,2025-09-28,2026-09-19,Invalid
-CLM00174,Washing Machine,8,12,Active,Physical Damage,0,Yes,Yes,Yes,No,Yes,1,Yes,Yes,Yes,2026-01-12,2026-09-15,Invalid
-CLM01466,Refrigerator,17,18,Active,Mechanical Failure,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2025-04-09,2026-09-21,Valid
-CLM01117,Laptop,25,24,Expired,Mechanical Failure,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2024-08-26,2026-09-19,ManualReview
-CLM00937,Air Conditioner,11,6,Expired,Mechanical Failure,1,Yes,No,Yes,Yes,No,2,No,No,No,2025-09-30,2026-09-14,Invalid
-CLM00363,Washing Machine,14,6,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-07-12,2026-09-23,ManualReview
-CLM00010,Washing Machine,9,12,Active,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-12-18,2026-09-14,Valid
-CLM00983,Mobile Phone,29,24,Expired,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2024-04-18,2026-09-16,Invalid
-CLM00413,Air Conditioner,2,18,Active,Electrical Fault,1,No,Yes,No,Yes,No,2,No,No,No,2026-07-21,2026-09-15,ManualReview
-CLM01414,Refrigerator,1,24,Active,Overheating,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-08-14,2026-09-22,Valid
-CLM00177,Air Conditioner,14,12,Expired,Overheating,2,Yes,No,Yes,Yes,No,2,Yes,No,No,2025-07-18,2026-09-19,Invalid
-CLM00618,Refrigerator,11,18,Active,Physical Damage,1,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2025-10-20,2026-09-17,ManualReview
-CLM01244,Washing Machine,3,24,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-06-21,2026-09-20,Valid
-CLM00621,Refrigerator,7,6,Expired,Software Issue,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-02-13,2026-09-22,ManualReview
-CLM00591,Mobile Phone,1,6,Active,Software Issue,1,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2026-08-07,2026-09-13,Valid
-CLM00554,Laptop,10,6,Expired,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2025-11-17,2026-09-15,Invalid
-CLM00009,Mobile Phone,15,12,Expired,Physical Damage,2,Yes,Yes,Yes,No,No,2,Yes,Yes,No,2025-06-30,2026-09-20,Invalid
-CLM00988,Air Conditioner,17,12,Expired,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-04-24,2026-09-15,Invalid
-CLM01193,Television,17,24,Active,Software Issue,2,No,Yes,No,No,Yes,2,Yes,No,No,2025-04-17,2026-09-15,ManualReview
-CLM01234,Laptop,9,24,Active,Overheating,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2025-12-21,2026-09-23,Valid
-CLM00947,Television,29,24,Expired,Electrical Fault,1,Yes,No,No,Yes,Yes,2,Yes,No,No,2024-04-30,2026-09-22,ManualReview
-CLM00811,Television,15,12,Expired,Software Issue,1,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2025-06-19,2026-09-16,ManualReview
-CLM00623,Washing Machine,9,24,Active,Mechanical Failure,1,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2025-12-18,2026-09-19,Valid
-CLM01437,Television,1,24,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-08-22,2026-09-18,Valid
-CLM01187,Washing Machine,5,18,Active,Overheating,1,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2026-04-10,2026-09-13,Valid
-CLM01098,Washing Machine,14,18,Active,Water Damage,0,Yes,No,No,Yes,No,3,Yes,Yes,No,2025-07-12,2026-09-13,Invalid
-CLM00433,Laptop,8,24,Active,Water Damage,0,Yes,Yes,Yes,No,Yes,1,No,Yes,No,2025-12-28,2026-09-16,Invalid
-CLM01416,Television,4,6,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-05-01,2026-09-21,Valid
-CLM00336,Laptop,10,12,Active,Water Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-11-26,2026-09-13,ManualReview
-CLM00302,Mobile Phone,14,24,Active,Physical Damage,0,Yes,Yes,Yes,Yes,No,1,Yes,Yes,No,2025-07-28,2026-09-14,ManualReview
-CLM00053,Refrigerator,3,6,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-06-16,2026-09-17,ManualReview
-CLM00225,Television,15,18,Active,Water Damage,0,Yes,Yes,Yes,Yes,No,1,No,Yes,Yes,2025-06-16,2026-09-21,Invalid
-CLM01361,Mobile Phone,9,18,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-12-21,2026-09-16,Valid
-CLM00887,Refrigerator,20,12,Expired,Electrical Fault,1,No,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-01-23,2026-09-22,ManualReview
-CLM00437,Washing Machine,15,6,Expired,Electrical Fault,0,Yes,No,No,Yes,No,3,Yes,No,No,2025-06-23,2026-09-14,Invalid
-CLM00680,Mobile Phone,11,6,Expired,Mechanical Failure,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-10-10,2026-09-14,ManualReview
-CLM00870,Laptop,25,18,Expired,Water Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,Yes,2024-08-21,2026-09-16,Invalid
-CLM01320,Refrigerator,9,18,Active,Software Issue,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-12-20,2026-09-15,Valid
-CLM00539,Refrigerator,12,18,Active,Water Damage,1,Yes,No,Yes,No,Yes,2,No,Yes,No,2025-09-08,2026-09-18,Invalid
-CLM00299,Air Conditioner,21,18,Expired,Water Damage,1,Yes,Yes,Yes,No,Yes,1,No,Yes,No,2024-12-10,2026-09-17,Invalid
-CLM00964,Laptop,29,24,Expired,Mechanical Failure,2,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-04-13,2026-09-21,ManualReview
-CLM01139,Laptop,18,12,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-03-05,2026-09-15,ManualReview
-CLM01211,Laptop,10,24,Active,Electrical Fault,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-11-10,2026-09-20,Valid
-CLM01195,Air Conditioner,8,6,Expired,Overheating,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-12-29,2026-09-19,ManualReview
-CLM00557,Refrigerator,20,12,Expired,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-01-20,2026-09-16,Invalid
-CLM00284,Mobile Phone,19,18,Expired,Mechanical Failure,2,Yes,Yes,Yes,Yes,No,1,Yes,No,Yes,2025-02-07,2026-09-20,Invalid
-CLM00849,Mobile Phone,16,12,Expired,Water Damage,3,Yes,Yes,Yes,Yes,No,1,Yes,Yes,No,2025-05-25,2026-09-15,Invalid
-CLM00168,Television,12,12,Expired,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-09-17,2026-09-15,Invalid
-CLM00050,Air Conditioner,3,12,Active,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,Yes,2026-06-23,2026-09-15,ManualReview
-CLM00700,Television,17,18,Active,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-04-20,2026-09-21,ManualReview
-CLM01417,Washing Machine,6,18,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-03-22,2026-09-18,Valid
-CLM01104,Washing Machine,20,24,Active,Software Issue,2,No,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-01-07,2026-09-16,ManualReview
-CLM01172,Mobile Phone,10,18,Active,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-11-27,2026-09-17,ManualReview
-CLM00082,Mobile Phone,7,6,Expired,Electrical Fault,2,Yes,Yes,Yes,No,No,2,Yes,No,No,2026-02-21,2026-09-13,Invalid
-CLM00970,Refrigerator,23,18,Expired,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,Yes,2024-10-27,2026-09-16,Invalid
-CLM00297,Mobile Phone,15,6,Expired,Overheating,1,Yes,Yes,Yes,No,No,2,Yes,No,No,2025-06-06,2026-09-19,Invalid
-CLM00059,Television,16,12,Expired,Physical Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-05-15,2026-09-13,Invalid
-CLM01475,Refrigerator,10,24,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-11-20,2026-09-23,Valid
-CLM01185,Mobile Phone,19,24,Active,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-02-15,2026-09-14,ManualReview
-CLM01085,Television,24,18,Expired,Mechanical Failure,3,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2024-09-21,2026-09-22,Invalid
-CLM01053,Television,19,18,Expired,Water Damage,0,Yes,Yes,No,Yes,No,2,Yes,Yes,No,2025-02-07,2026-09-18,Invalid
-CLM00787,Television,5,6,Active,Electrical Fault,2,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-04-10,2026-09-16,ManualReview
-CLM00158,Mobile Phone,0,24,Active,Electrical Fault,1,No,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-09-12,2026-09-21,ManualReview
-CLM00586,Refrigerator,18,18,Active,Electrical Fault,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-04-01,2026-09-20,Valid
-CLM00112,Television,3,6,Active,Overheating,3,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-06-21,2026-09-13,Valid
-CLM00689,Air Conditioner,16,24,Active,Water Damage,1,Yes,No,Yes,Yes,No,2,No,Yes,No,2025-05-20,2026-09-22,Invalid
-CLM01345,Washing Machine,0,12,Active,Overheating,1,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2026-09-06,2026-09-15,Valid
-CLM01259,Laptop,17,18,Active,Mechanical Failure,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-04-06,2026-09-21,Valid
-CLM01380,Mobile Phone,2,24,Active,Mechanical Failure,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-07-16,2026-09-21,Valid
-CLM01257,Air Conditioner,1,6,Active,Software Issue,0,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2026-07-29,2026-09-19,Valid
-CLM00311,Mobile Phone,1,6,Active,Water Damage,1,Yes,Yes,Yes,No,No,2,Yes,Yes,No,2026-08-24,2026-09-15,Invalid
-CLM01038,Washing Machine,6,6,Expired,Software Issue,1,Yes,Yes,No,Yes,No,2,Yes,No,No,2026-03-09,2026-09-19,ManualReview
-CLM00180,Mobile Phone,7,18,Active,Electrical Fault,3,No,No,Yes,Yes,No,2,Yes,No,No,2026-02-16,2026-09-19,Invalid
-CLM01473,Television,9,12,Active,Overheating,1,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2025-12-10,2026-09-16,Valid
-CLM00912,Refrigerator,10,12,Active,Water Damage,0,Yes,No,Yes,No,Yes,2,No,Yes,No,2025-11-18,2026-09-16,Invalid
-CLM00627,Washing Machine,31,24,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-02-09,2026-09-15,ManualReview
-CLM00166,Air Conditioner,25,24,Expired,Water Damage,0,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2024-08-10,2026-09-23,Invalid
-CLM00650,Refrigerator,6,6,Expired,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-03-23,2026-09-19,ManualReview
-CLM00918,Air Conditioner,8,24,Active,Electrical Fault,1,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-01-05,2026-09-21,Valid
-CLM00467,Air Conditioner,15,24,Active,Software Issue,2,Yes,Yes,No,Yes,Yes,1,No,No,No,2025-06-23,2026-09-13,ManualReview
-CLM00994,Mobile Phone,8,18,Active,Overheating,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-12-28,2026-09-19,Valid
-CLM00542,Television,4,6,Active,Water Damage,0,Yes,No,Yes,Yes,Yes,1,No,Yes,No,2026-04-28,2026-09-14,Invalid
-CLM01297,Television,10,18,Active,Overheating,1,No,Yes,Yes,Yes,No,1,Yes,No,No,2025-11-03,2026-09-14,Valid
+CLM00885,Refrigerator,6,12,Active,Electrical Fault,2,Yes,Yes,No,Yes,Yes,1,No,No,No,2026-03-23,2026-09-19,ManualReview
+CLM00997,Washing Machine,2,18,Active,Software Issue,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-07-15,2026-09-16,Valid
+CLM02019,Air Conditioner,6,12,Active,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-03-12,2026-09-20,Valid
+CLM01439,Air Conditioner,17,24,Active,Physical Damage,2,Yes,No,Yes,Yes,No,2,No,Yes,No,2025-04-07,2026-09-23,Invalid
+CLM02468,Washing Machine,13,18,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-08-22,2026-09-19,Valid
+CLM01528,Washing Machine,12,12,Expired,Electrical Fault,1,Yes,Yes,Yes,Yes,No,1,No,No,No,2025-09-20,2026-09-13,Invalid
+CLM00867,Mobile Phone,1,12,Active,Software Issue,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-08-15,2026-09-14,Valid
+CLM02431,Refrigerator,4,12,Active,Electrical Fault,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-05-04,2026-09-17,Valid
+CLM00466,Television,9,6,Expired,Physical Damage,0,Yes,Yes,No,Yes,No,2,Yes,Yes,No,2025-12-17,2026-09-22,Invalid
+CLM01863,Washing Machine,15,12,Expired,Mechanical Failure,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-06-27,2026-09-23,ManualReview
+CLM00343,Mobile Phone,8,6,Expired,Electrical Fault,1,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-01-18,2026-09-23,ManualReview
+CLM00360,Mobile Phone,5,24,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-04-21,2026-09-17,Valid
+CLM00130,Television,5,24,Active,Physical Damage,1,No,No,Yes,No,No,3,No,Yes,No,2026-04-05,2026-09-15,Invalid
+CLM02256,Television,3,12,Active,Mechanical Failure,2,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-06-21,2026-09-15,Valid
+CLM00815,Television,10,6,Expired,Electrical Fault,0,Yes,Yes,Yes,Yes,No,1,No,No,No,2025-10-29,2026-09-13,Invalid
+CLM00721,Laptop,32,24,Expired,Software Issue,0,Yes,No,No,Yes,No,3,Yes,No,No,2024-01-25,2026-09-23,Invalid
+CLM00655,Refrigerator,3,12,Active,Mechanical Failure,1,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-06-05,2026-09-17,Valid
+CLM01552,Air Conditioner,4,6,Active,Water Damage,1,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2026-05-11,2026-09-16,ManualReview
+CLM00640,Television,2,24,Active,Physical Damage,2,Yes,No,Yes,No,Yes,2,Yes,Yes,No,2026-07-07,2026-09-22,Invalid
+CLM00652,Television,4,12,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-05-19,2026-09-20,Valid
+CLM00774,Laptop,6,12,Active,Mechanical Failure,0,Yes,No,No,Yes,Yes,2,Yes,No,No,2026-03-23,2026-09-18,Valid
+CLM01116,Laptop,8,24,Active,Electrical Fault,0,Yes,No,No,Yes,Yes,2,Yes,No,No,2026-01-24,2026-09-20,ManualReview
+CLM02053,Mobile Phone,4,18,Active,Software Issue,1,No,Yes,Yes,Yes,No,1,Yes,No,No,2026-05-25,2026-09-20,Valid
+CLM00469,Refrigerator,23,24,Active,Physical Damage,0,Yes,Yes,Yes,No,Yes,1,Yes,Yes,No,2024-10-13,2026-09-21,ManualReview
+CLM00274,Air Conditioner,26,18,Expired,Electrical Fault,1,Yes,No,Yes,No,Yes,2,Yes,No,No,2024-07-14,2026-09-19,Invalid
+CLM01357,Laptop,18,12,Expired,Electrical Fault,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2025-03-20,2026-09-13,ManualReview
+CLM01081,Television,19,18,Expired,Physical Damage,1,Yes,Yes,No,Yes,No,2,Yes,Yes,No,2025-02-01,2026-09-23,Invalid
+CLM01840,Mobile Phone,0,18,Active,Mechanical Failure,3,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-09-01,2026-09-15,ManualReview
+CLM01549,Television,1,12,Active,Water Damage,0,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2026-08-15,2026-09-23,ManualReview
+CLM01211,Washing Machine,13,6,Expired,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-08-02,2026-09-15,Invalid
+CLM00390,Refrigerator,5,12,Active,Electrical Fault,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-04-11,2026-09-15,Valid
+CLM02329,Laptop,6,18,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-03-11,2026-09-17,Valid
+CLM02499,Air Conditioner,4,6,Active,Overheating,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-05-03,2026-09-22,Valid
+CLM01387,Refrigerator,11,6,Expired,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,No,Yes,Yes,2025-10-16,2026-09-16,Invalid
+CLM00582,Laptop,1,12,Active,Mechanical Failure,2,Yes,Yes,Yes,No,No,2,Yes,No,No,2026-08-24,2026-09-23,ManualReview
+CLM02086,Washing Machine,1,18,Active,Software Issue,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-08-06,2026-09-15,Valid
+CLM01734,Laptop,11,24,Active,Mechanical Failure,1,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-10-20,2026-09-23,Valid
+CLM00725,Refrigerator,2,6,Active,Software Issue,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-06-30,2026-09-14,Valid
+CLM01198,Mobile Phone,5,18,Active,Water Damage,1,No,Yes,No,Yes,Yes,1,Yes,Yes,No,2026-04-11,2026-09-17,ManualReview
+CLM00941,Mobile Phone,8,6,Expired,Mechanical Failure,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-01-16,2026-09-17,ManualReview
+CLM01200,Refrigerator,14,6,Expired,Physical Damage,2,Yes,No,Yes,Yes,No,2,No,Yes,Yes,2025-07-12,2026-09-17,Invalid
+CLM00878,Laptop,27,24,Expired,Physical Damage,0,Yes,No,Yes,Yes,Yes,1,Yes,No,Yes,2024-06-23,2026-09-17,Invalid
+CLM00905,Refrigerator,19,24,Active,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-02-14,2026-09-23,Valid
+CLM00448,Television,3,6,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-06-11,2026-09-18,ManualReview
+CLM02031,Refrigerator,14,18,Active,Overheating,0,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2025-07-03,2026-09-15,Valid
+CLM02123,Laptop,5,6,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2026-04-21,2026-09-17,Valid
+CLM02033,Laptop,1,6,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-08-05,2026-09-15,Valid
+CLM00649,Mobile Phone,1,6,Active,Electrical Fault,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-08-03,2026-09-21,Valid
+CLM00554,Washing Machine,2,6,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-07-21,2026-09-14,Valid
+CLM01296,Refrigerator,1,12,Active,Mechanical Failure,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-08-06,2026-09-14,Valid
+CLM00384,Television,4,24,Active,Electrical Fault,3,Yes,Yes,No,No,Yes,2,Yes,No,No,2026-05-10,2026-09-13,ManualReview
+CLM00146,Air Conditioner,6,18,Active,Software Issue,0,Yes,Yes,Yes,No,Yes,1,Yes,Yes,No,2026-03-18,2026-09-17,ManualReview
+CLM01663,Laptop,19,12,Expired,Software Issue,0,Yes,No,No,Yes,No,3,Yes,No,No,2025-02-09,2026-09-14,Invalid
+CLM00632,Refrigerator,21,24,Active,Overheating,0,Yes,Yes,Yes,Yes,No,1,No,No,No,2024-12-20,2026-09-15,ManualReview
+CLM01405,Mobile Phone,8,6,Expired,Overheating,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-01-04,2026-09-14,ManualReview
+CLM01372,Laptop,19,12,Expired,Electrical Fault,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-02-23,2026-09-15,Invalid
+CLM02051,Refrigerator,8,12,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-01-08,2026-09-13,Valid
+CLM00601,Television,1,6,Active,Software Issue,0,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2026-08-18,2026-09-13,Valid
+CLM00141,Laptop,8,18,Active,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-01-17,2026-09-21,ManualReview
+CLM01878,Refrigerator,6,12,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-03-15,2026-09-14,Valid
+CLM01856,Washing Machine,7,12,Active,Overheating,1,No,Yes,No,Yes,Yes,1,Yes,No,No,2026-02-04,2026-09-18,ManualReview
+CLM01802,Refrigerator,31,24,Expired,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2024-03-05,2026-09-18,Invalid
+CLM02081,Washing Machine,17,18,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-04-03,2026-09-16,Valid
+CLM00575,Refrigerator,15,18,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-06-03,2026-09-22,Valid
+CLM00463,Mobile Phone,31,24,Expired,Electrical Fault,2,No,Yes,Yes,No,Yes,1,Yes,No,No,2024-02-21,2026-09-19,Invalid
+CLM02354,Mobile Phone,7,12,Active,Electrical Fault,1,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2026-02-09,2026-09-18,Valid
+CLM01699,Mobile Phone,17,18,Active,Water Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-04-11,2026-09-19,ManualReview
+CLM01509,Air Conditioner,16,12,Expired,Mechanical Failure,0,Yes,Yes,No,Yes,No,2,Yes,No,No,2025-05-26,2026-09-21,ManualReview
+CLM00677,Laptop,0,6,Active,Software Issue,1,Yes,Yes,No,Yes,Yes,1,No,No,No,2026-09-09,2026-09-17,ManualReview
+CLM00832,Air Conditioner,6,12,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-03-19,2026-09-22,Valid
+CLM02009,Air Conditioner,5,24,Active,Electrical Fault,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-04-19,2026-09-15,Valid
+CLM00604,Television,1,18,Active,Electrical Fault,0,Yes,No,Yes,No,No,3,Yes,No,No,2026-08-04,2026-09-13,ManualReview
+CLM00415,Television,10,18,Active,Water Damage,1,Yes,Yes,No,Yes,No,2,Yes,Yes,No,2025-11-27,2026-09-22,Invalid
+CLM01072,Television,4,6,Active,Water Damage,0,Yes,No,Yes,Yes,No,2,No,Yes,No,2026-05-03,2026-09-19,Invalid
+CLM00723,Washing Machine,12,6,Expired,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-09-02,2026-09-13,Invalid
+CLM01383,Laptop,15,18,Active,Software Issue,3,No,Yes,Yes,Yes,No,1,Yes,No,No,2025-06-16,2026-09-15,ManualReview
+CLM02395,Air Conditioner,3,6,Active,Electrical Fault,1,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-06-18,2026-09-19,Valid
+CLM02292,Refrigerator,2,6,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-06-28,2026-09-14,Valid
+CLM00877,Television,4,18,Active,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,Yes,2026-05-02,2026-09-15,Invalid
+CLM02246,Refrigerator,1,18,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-08-16,2026-09-19,Valid
+CLM02170,Mobile Phone,3,12,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-06-13,2026-09-18,Valid
+CLM01807,Washing Machine,1,24,Active,Water Damage,1,No,No,Yes,Yes,Yes,1,No,Yes,No,2026-08-13,2026-09-17,Invalid
+CLM00115,Mobile Phone,23,24,Active,Mechanical Failure,2,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-10-26,2026-09-16,Valid
+CLM02150,Air Conditioner,4,12,Active,Mechanical Failure,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-05-20,2026-09-16,Valid
+CLM02109,Air Conditioner,9,12,Active,Overheating,3,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-12-24,2026-09-15,Valid
+CLM00641,Washing Machine,15,6,Expired,Overheating,1,No,Yes,No,No,Yes,2,Yes,No,No,2025-06-24,2026-09-23,Invalid
+CLM00644,Mobile Phone,7,12,Active,Overheating,1,Yes,Yes,Yes,No,No,2,Yes,Yes,Yes,2026-02-11,2026-09-23,Invalid
+CLM00058,Washing Machine,10,6,Expired,Electrical Fault,0,Yes,Yes,Yes,Yes,No,1,No,No,No,2025-11-12,2026-09-21,Invalid
+CLM00154,Refrigerator,6,6,Expired,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-03-11,2026-09-16,ManualReview
+CLM01599,Washing Machine,10,24,Active,Electrical Fault,1,No,Yes,No,Yes,Yes,1,Yes,No,No,2025-11-11,2026-09-21,Valid
+CLM00123,Laptop,14,6,Expired,Water Damage,0,Yes,No,Yes,No,Yes,2,Yes,Yes,No,2025-07-18,2026-09-13,Invalid
+CLM01465,Mobile Phone,0,6,Active,Software Issue,1,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-09-01,2026-09-13,Valid
+CLM01534,Television,8,12,Active,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-01-08,2026-09-22,ManualReview
+CLM01262,Washing Machine,19,12,Expired,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2025-03-01,2026-09-22,Invalid
+CLM00215,Air Conditioner,3,6,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,Yes,2026-06-09,2026-09-16,ManualReview
+CLM00078,Washing Machine,12,12,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-09-11,2026-09-15,ManualReview
+CLM00546,Air Conditioner,0,24,Active,Software Issue,0,Yes,Yes,Yes,Yes,No,1,No,No,No,2026-09-12,2026-09-18,ManualReview
+CLM02309,Air Conditioner,3,24,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-06-18,2026-09-18,Valid
+CLM01952,Television,24,18,Expired,Overheating,0,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2024-09-30,2026-09-17,ManualReview
+CLM00057,Refrigerator,9,12,Active,Software Issue,1,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-12-16,2026-09-21,Valid
+CLM00680,Laptop,4,12,Active,Mechanical Failure,2,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2026-05-04,2026-09-22,ManualReview
+CLM00068,Washing Machine,15,12,Expired,Software Issue,2,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-06-11,2026-09-21,Invalid
+CLM00611,Refrigerator,6,18,Active,Water Damage,2,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-02-27,2026-09-17,Invalid
+CLM00911,Mobile Phone,0,12,Active,Mechanical Failure,0,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2026-08-27,2026-09-19,ManualReview
+CLM00453,Television,10,6,Expired,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-11-14,2026-09-23,ManualReview
+CLM01401,Refrigerator,3,12,Active,Software Issue,0,Yes,No,No,Yes,Yes,2,Yes,Yes,Yes,2026-06-08,2026-09-14,Invalid
+CLM00020,Mobile Phone,2,12,Active,Software Issue,2,Yes,Yes,Yes,No,Yes,1,No,No,No,2026-07-13,2026-09-15,Invalid
+CLM01574,Refrigerator,0,24,Active,Electrical Fault,1,No,Yes,Yes,Yes,Yes,0,Yes,No,Yes,2026-08-25,2026-09-18,Invalid
+CLM00313,Refrigerator,18,18,Expired,Physical Damage,1,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2025-03-07,2026-09-19,Invalid
+CLM00798,Washing Machine,12,6,Expired,Electrical Fault,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-09-08,2026-09-14,ManualReview
+CLM00792,Refrigerator,11,18,Active,Water Damage,1,Yes,Yes,No,Yes,No,2,Yes,Yes,No,2025-10-13,2026-09-20,Invalid
+CLM00445,Laptop,10,18,Active,Water Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-11-11,2026-09-19,ManualReview
+CLM00592,Air Conditioner,1,6,Active,Physical Damage,0,Yes,Yes,No,Yes,No,2,No,Yes,No,2026-08-01,2026-09-20,Invalid
+CLM00226,Refrigerator,3,24,Active,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-06-13,2026-09-13,Valid
+CLM01816,Television,1,6,Active,Electrical Fault,0,Yes,Yes,Yes,No,Yes,1,No,No,Yes,2026-08-09,2026-09-16,Invalid
+CLM00119,Laptop,17,18,Active,Software Issue,3,No,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-04-16,2026-09-13,Valid
+CLM01696,Laptop,15,18,Active,Software Issue,1,No,No,No,No,Yes,3,Yes,No,No,2025-06-17,2026-09-13,ManualReview
+CLM02385,Refrigerator,9,18,Active,Mechanical Failure,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-12-20,2026-09-17,Valid
+CLM00571,Washing Machine,17,18,Active,Mechanical Failure,2,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2025-04-27,2026-09-20,Invalid
+CLM02307,Mobile Phone,2,6,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-07-09,2026-09-15,Valid
+CLM01240,Air Conditioner,20,24,Active,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,No,Yes,No,2025-01-16,2026-09-13,Invalid
+CLM02066,Air Conditioner,5,6,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-04-04,2026-09-21,Valid
+CLM01980,Mobile Phone,8,6,Expired,Mechanical Failure,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-01-18,2026-09-15,ManualReview
+CLM02412,Mobile Phone,7,12,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-02-24,2026-09-20,Valid
+CLM00047,Mobile Phone,16,18,Active,Electrical Fault,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-05-04,2026-09-19,Valid
+CLM00580,Mobile Phone,26,24,Expired,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-07-16,2026-09-17,ManualReview
+CLM01741,Laptop,6,12,Active,Electrical Fault,0,Yes,Yes,Yes,No,No,2,No,No,No,2026-03-20,2026-09-20,ManualReview
+CLM00869,Laptop,0,12,Active,Mechanical Failure,0,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2026-08-26,2026-09-14,ManualReview
+CLM01320,Television,15,12,Expired,Electrical Fault,0,Yes,Yes,No,Yes,No,2,Yes,No,Yes,2025-06-10,2026-09-23,Invalid
+CLM01738,Television,21,12,Expired,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-12-22,2026-09-17,ManualReview
+CLM01271,Air Conditioner,7,18,Active,Physical Damage,1,No,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-02-09,2026-09-17,ManualReview
+CLM00558,Laptop,11,18,Active,Physical Damage,0,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2025-10-14,2026-09-16,ManualReview
+CLM01819,Washing Machine,16,18,Active,Software Issue,0,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2025-05-24,2026-09-14,Valid
+CLM01637,Refrigerator,7,18,Active,Overheating,2,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-01-30,2026-09-22,Valid
+CLM00037,Mobile Phone,14,6,Expired,Water Damage,1,No,Yes,No,Yes,Yes,1,Yes,Yes,No,2025-07-17,2026-09-17,Invalid
+CLM02212,Washing Machine,2,18,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2026-07-19,2026-09-21,Valid
+CLM00467,Television,13,12,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2025-08-21,2026-09-22,Invalid
+CLM00912,Laptop,4,6,Active,Water Damage,1,Yes,Yes,Yes,Yes,Yes,0,No,Yes,Yes,2026-05-02,2026-09-15,Invalid
+CLM02483,Laptop,16,18,Active,Electrical Fault,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-05-07,2026-09-15,Valid
+CLM01554,Mobile Phone,4,12,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-05-17,2026-09-19,ManualReview
+CLM02099,Laptop,6,12,Active,Water Damage,2,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-03-27,2026-09-16,Valid
+CLM01981,Refrigerator,10,18,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-11-21,2026-09-14,Valid
+CLM01406,Mobile Phone,8,6,Expired,Mechanical Failure,1,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-12-31,2026-09-13,ManualReview
+CLM00985,Laptop,8,6,Expired,Mechanical Failure,0,Yes,No,No,Yes,Yes,2,Yes,No,No,2026-01-12,2026-09-17,Invalid
+CLM01983,Refrigerator,4,18,Active,Physical Damage,1,Yes,Yes,Yes,No,Yes,1,Yes,Yes,No,2026-04-28,2026-09-22,ManualReview
+CLM01544,Air Conditioner,20,18,Expired,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,Yes,2025-01-16,2026-09-15,Invalid
+CLM01748,Refrigerator,5,12,Active,Physical Damage,0,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2026-04-17,2026-09-17,ManualReview
+CLM01656,Refrigerator,6,6,Expired,Water Damage,1,No,Yes,Yes,No,Yes,1,Yes,Yes,No,2026-03-10,2026-09-13,Invalid
+CLM01402,Mobile Phone,3,24,Active,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,No,Yes,No,2026-06-18,2026-09-22,ManualReview
+CLM01205,Washing Machine,3,12,Active,Overheating,0,Yes,Yes,Yes,No,Yes,1,Yes,No,Yes,2026-05-28,2026-09-15,ManualReview
+CLM01702,Laptop,7,6,Expired,Physical Damage,0,Yes,Yes,No,No,Yes,2,No,Yes,No,2026-02-23,2026-09-23,Invalid
+CLM02022,Mobile Phone,10,24,Active,Overheating,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-11-15,2026-09-16,Valid
+CLM02067,Refrigerator,14,24,Active,Electrical Fault,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-07-12,2026-09-18,Valid
+CLM01578,Refrigerator,23,18,Expired,Water Damage,0,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2024-10-18,2026-09-14,Invalid
+CLM02476,Refrigerator,17,18,Active,Software Issue,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-04-20,2026-09-15,Valid
+CLM00762,Refrigerator,18,18,Expired,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-03-10,2026-09-13,ManualReview
+CLM00761,Laptop,33,24,Expired,Physical Damage,0,Yes,No,No,No,Yes,3,Yes,Yes,No,2023-12-24,2026-09-15,Invalid
+CLM02281,Laptop,2,6,Active,Mechanical Failure,1,No,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-07-05,2026-09-23,Valid
+CLM00834,Television,16,12,Expired,Mechanical Failure,1,Yes,No,Yes,No,No,3,Yes,No,No,2025-05-22,2026-09-19,Invalid
+CLM00882,Washing Machine,3,6,Active,Software Issue,1,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-05-28,2026-09-23,Valid
+CLM02130,Mobile Phone,1,18,Active,Mechanical Failure,1,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-08-16,2026-09-13,Valid
+CLM02220,Refrigerator,5,12,Active,Electrical Fault,1,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-04-05,2026-09-17,Valid
+CLM01903,Air Conditioner,2,6,Active,Water Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-06-27,2026-09-15,ManualReview
+CLM01493,Air Conditioner,16,24,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-05-28,2026-09-22,Valid
+CLM00230,Air Conditioner,18,24,Active,Mechanical Failure,0,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2025-03-05,2026-09-17,Valid
+CLM01139,Refrigerator,18,18,Expired,Electrical Fault,2,Yes,No,Yes,Yes,Yes,1,No,No,No,2025-03-03,2026-09-15,Invalid
+CLM00650,Refrigerator,1,6,Active,Electrical Fault,2,Yes,Yes,No,Yes,No,2,Yes,No,Yes,2026-08-24,2026-09-13,Invalid
+CLM00106,Laptop,10,6,Expired,Software Issue,2,Yes,Yes,No,No,Yes,2,Yes,No,No,2025-10-30,2026-09-22,Invalid
+CLM00394,Refrigerator,8,6,Expired,Water Damage,0,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2026-01-02,2026-09-22,Invalid
+CLM01900,Mobile Phone,0,6,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-09-04,2026-09-13,ManualReview
+CLM01290,Refrigerator,7,12,Active,Overheating,1,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-01-27,2026-09-20,ManualReview
+CLM01157,Mobile Phone,21,24,Active,Physical Damage,0,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2024-12-15,2026-09-22,ManualReview
+CLM01496,Air Conditioner,0,24,Active,Software Issue,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-08-27,2026-09-22,Valid
+CLM00794,Mobile Phone,0,24,Active,Water Damage,1,No,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-09-02,2026-09-23,Invalid
+CLM02001,Refrigerator,9,6,Expired,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-12-07,2026-09-20,ManualReview
+CLM01125,Laptop,32,24,Expired,Software Issue,0,Yes,No,No,Yes,Yes,2,No,No,No,2024-01-19,2026-09-14,Invalid
+CLM00634,Refrigerator,13,24,Active,Physical Damage,1,Yes,No,Yes,Yes,Yes,1,Yes,Yes,Yes,2025-08-29,2026-09-20,Invalid
+CLM01584,Television,17,12,Expired,Software Issue,0,Yes,Yes,Yes,No,Yes,1,No,No,No,2025-04-06,2026-09-14,Invalid
+CLM01089,Mobile Phone,16,12,Expired,Overheating,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-05-18,2026-09-18,ManualReview
+CLM00783,Television,22,18,Expired,Water Damage,0,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2024-11-22,2026-09-19,Invalid
+CLM00753,Television,1,12,Active,Electrical Fault,1,Yes,No,Yes,Yes,No,2,Yes,Yes,No,2026-08-13,2026-09-14,Invalid
+CLM00754,Laptop,9,6,Expired,Mechanical Failure,0,Yes,Yes,No,Yes,No,2,Yes,No,Yes,2025-12-14,2026-09-21,Invalid
+CLM00261,Refrigerator,3,18,Active,Mechanical Failure,0,Yes,Yes,Yes,No,Yes,1,No,No,No,2026-06-05,2026-09-23,ManualReview
+CLM02502,Laptop,4,6,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-05-01,2026-09-16,Valid
+CLM02068,Laptop,17,24,Active,Electrical Fault,0,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2025-04-25,2026-09-16,Valid
+CLM01140,Television,1,24,Active,Physical Damage,0,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2026-07-27,2026-09-16,ManualReview
+CLM00662,Mobile Phone,13,18,Active,Water Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-08-03,2026-09-22,ManualReview
+CLM00202,Television,14,12,Expired,Mechanical Failure,2,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-07-04,2026-09-13,ManualReview
+CLM01628,Refrigerator,1,6,Active,Electrical Fault,0,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2026-08-23,2026-09-15,Valid
+CLM01299,Air Conditioner,22,18,Expired,Electrical Fault,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2024-11-08,2026-09-16,ManualReview
+CLM00024,Refrigerator,7,6,Expired,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-02-25,2026-09-13,ManualReview
+CLM01259,Television,12,18,Active,Mechanical Failure,0,Yes,Yes,Yes,No,Yes,1,No,No,No,2025-09-18,2026-09-20,ManualReview
+CLM02118,Television,0,6,Active,Overheating,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-08-29,2026-09-20,Valid
+CLM01012,Laptop,1,12,Active,Physical Damage,1,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2026-08-02,2026-09-19,Invalid
+CLM01170,Television,15,12,Expired,Physical Damage,0,Yes,No,Yes,Yes,Yes,1,Yes,Yes,Yes,2025-06-30,2026-09-13,Invalid
+CLM00372,Air Conditioner,17,24,Active,Physical Damage,2,No,No,Yes,Yes,Yes,1,Yes,Yes,Yes,2025-04-08,2026-09-15,Invalid
+CLM00442,Television,14,6,Expired,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-07-25,2026-09-20,Invalid
+CLM01456,Laptop,15,18,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,Yes,2025-06-16,2026-09-17,ManualReview
+CLM00627,Refrigerator,4,6,Active,Physical Damage,1,Yes,Yes,Yes,Yes,No,1,Yes,Yes,No,2026-05-24,2026-09-18,ManualReview
+CLM01711,Washing Machine,6,6,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-03-12,2026-09-16,ManualReview
+CLM01195,Refrigerator,25,18,Expired,Software Issue,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2024-08-20,2026-09-17,ManualReview
+CLM01908,Washing Machine,7,12,Active,Software Issue,2,No,Yes,No,Yes,No,2,Yes,No,No,2026-02-07,2026-09-19,ManualReview
+CLM01105,Washing Machine,26,18,Expired,Overheating,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2024-07-22,2026-09-14,ManualReview
+CLM01268,Refrigerator,11,12,Active,Physical Damage,0,Yes,No,Yes,Yes,Yes,1,No,Yes,No,2025-10-27,2026-09-22,Invalid
+CLM02439,Air Conditioner,17,18,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-04-02,2026-09-15,Valid
+CLM00034,Television,8,18,Active,Physical Damage,0,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2026-01-06,2026-09-20,Invalid
+CLM00534,Refrigerator,12,18,Active,Electrical Fault,1,No,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-08-31,2026-09-18,Valid
+CLM01540,Air Conditioner,25,24,Expired,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-08-31,2026-09-16,ManualReview
+CLM00301,Air Conditioner,10,6,Expired,Software Issue,3,Yes,Yes,Yes,Yes,No,1,No,No,No,2025-11-04,2026-09-19,Invalid
+CLM00512,Refrigerator,6,18,Active,Overheating,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-03-20,2026-09-13,Valid
+CLM00132,Mobile Phone,16,24,Active,Mechanical Failure,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-05-31,2026-09-15,Valid
+CLM01515,Television,21,18,Expired,Software Issue,1,Yes,No,Yes,Yes,No,2,Yes,No,Yes,2024-12-23,2026-09-19,Invalid
+CLM01689,Refrigerator,19,18,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-02-03,2026-09-14,Invalid
+CLM01589,Television,5,18,Active,Water Damage,0,Yes,Yes,No,Yes,No,2,Yes,Yes,No,2026-04-17,2026-09-13,Invalid
+CLM00229,Air Conditioner,24,18,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-09-23,2026-09-23,ManualReview
+CLM02390,Washing Machine,8,12,Active,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-01-11,2026-09-17,Valid
+CLM01348,Laptop,10,6,Expired,Physical Damage,2,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2025-11-24,2026-09-23,Invalid
+CLM02204,Television,8,12,Active,Electrical Fault,2,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-01-19,2026-09-19,Valid
+CLM02269,Washing Machine,7,12,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-01-29,2026-09-20,Valid
+CLM01520,Washing Machine,25,24,Expired,Mechanical Failure,0,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2024-08-12,2026-09-17,Invalid
+CLM01384,Television,0,12,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-08-28,2026-09-15,Valid
+CLM01543,Washing Machine,12,6,Expired,Electrical Fault,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2025-09-10,2026-09-17,ManualReview
+CLM00573,Mobile Phone,22,18,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-12-01,2026-09-15,ManualReview
+CLM00763,Mobile Phone,8,18,Active,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-01-22,2026-09-15,ManualReview
+CLM00071,Air Conditioner,24,24,Expired,Electrical Fault,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2024-10-01,2026-09-23,ManualReview
+CLM01187,Mobile Phone,17,18,Active,Software Issue,2,No,No,Yes,Yes,Yes,1,Yes,Yes,No,2025-04-14,2026-09-20,Invalid
+CLM02305,Laptop,0,18,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-09-12,2026-09-23,Valid
+CLM01327,Refrigerator,9,12,Active,Overheating,3,Yes,Yes,Yes,Yes,Yes,0,No,No,Yes,2025-12-27,2026-09-22,Invalid
+CLM02240,Refrigerator,9,18,Active,Mechanical Failure,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-11-29,2026-09-14,Valid
+CLM01186,Refrigerator,21,18,Expired,Water Damage,2,No,No,Yes,Yes,Yes,1,Yes,Yes,No,2024-12-10,2026-09-14,Invalid
+CLM02368,Washing Machine,2,18,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-06-30,2026-09-18,Valid
+CLM01368,Laptop,5,12,Active,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-04-15,2026-09-19,ManualReview
+CLM02131,Washing Machine,8,18,Active,Mechanical Failure,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-01-23,2026-09-22,Valid
+CLM01732,Television,13,6,Expired,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-08-24,2026-09-14,ManualReview
+CLM00455,Mobile Phone,10,12,Active,Software Issue,1,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-11-21,2026-09-13,Valid
+CLM00459,Television,14,24,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2025-07-15,2026-09-23,Valid
+CLM02103,Washing Machine,5,24,Active,Software Issue,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-04-04,2026-09-18,Valid
+CLM01378,Television,16,18,Active,Mechanical Failure,0,Yes,No,Yes,Yes,No,2,Yes,No,No,2025-05-19,2026-09-14,ManualReview
+CLM00190,Television,32,24,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2024-01-08,2026-09-13,ManualReview
+CLM00945,Mobile Phone,18,18,Expired,Overheating,0,Yes,Yes,Yes,Yes,No,1,No,No,No,2025-03-15,2026-09-19,Invalid
+CLM00149,Mobile Phone,4,18,Active,Mechanical Failure,3,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-05-26,2026-09-22,ManualReview
+CLM01075,Washing Machine,4,18,Active,Software Issue,1,Yes,Yes,Yes,Yes,No,1,No,No,No,2026-05-18,2026-09-13,ManualReview
+CLM00922,Mobile Phone,18,12,Expired,Software Issue,3,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-03-10,2026-09-22,ManualReview
+CLM00790,Mobile Phone,19,12,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-02-20,2026-09-23,ManualReview
+CLM00591,Laptop,14,18,Active,Water Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-07-10,2026-09-23,ManualReview
+CLM01329,Washing Machine,8,24,Active,Water Damage,1,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-01-14,2026-09-13,ManualReview
+CLM00777,Laptop,9,18,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-12-14,2026-09-16,Valid
+CLM00768,Television,0,6,Active,Water Damage,2,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-09-02,2026-09-13,ManualReview
+CLM00159,Mobile Phone,9,24,Active,Physical Damage,0,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2025-12-11,2026-09-23,Invalid
+CLM02383,Laptop,5,24,Active,Software Issue,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-04-12,2026-09-16,Valid
+CLM00101,Air Conditioner,16,12,Expired,Physical Damage,0,Yes,No,Yes,Yes,Yes,1,No,Yes,No,2025-05-27,2026-09-19,Invalid
+CLM00541,Air Conditioner,10,6,Expired,Mechanical Failure,2,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-11-11,2026-09-20,ManualReview
+CLM01833,Mobile Phone,12,24,Active,Physical Damage,0,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2025-09-08,2026-09-15,ManualReview
+CLM01431,Refrigerator,5,6,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-04-17,2026-09-21,Valid
+CLM02404,Air Conditioner,2,18,Active,Overheating,1,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-06-28,2026-09-21,Valid
+CLM02285,Mobile Phone,22,24,Active,Electrical Fault,2,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2024-11-22,2026-09-20,Valid
+CLM01491,Refrigerator,16,18,Active,Physical Damage,1,Yes,Yes,Yes,Yes,Yes,0,No,Yes,No,2025-05-10,2026-09-19,Invalid
+CLM01476,Air Conditioner,15,6,Expired,Software Issue,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-06-19,2026-09-14,ManualReview
+CLM01061,Laptop,22,24,Active,Water Damage,3,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2024-11-27,2026-09-16,Invalid
+CLM01726,Television,15,6,Expired,Physical Damage,1,Yes,Yes,Yes,Yes,No,1,Yes,Yes,No,2025-06-24,2026-09-18,Invalid
+CLM01056,Air Conditioner,3,24,Active,Electrical Fault,0,Yes,No,No,Yes,Yes,2,Yes,No,No,2026-06-16,2026-09-20,Valid
+CLM01649,Washing Machine,7,6,Expired,Mechanical Failure,1,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-02-24,2026-09-16,Invalid
+CLM01762,Television,14,6,Expired,Mechanical Failure,0,Yes,Yes,Yes,No,No,2,Yes,No,No,2025-07-17,2026-09-15,Invalid
+CLM02184,Laptop,7,18,Active,Mechanical Failure,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-02-03,2026-09-20,Valid
+CLM00806,Refrigerator,5,6,Active,Overheating,0,Yes,Yes,Yes,Yes,No,1,No,No,No,2026-04-07,2026-09-16,ManualReview
+CLM01795,Refrigerator,25,24,Expired,Water Damage,0,Yes,Yes,Yes,No,Yes,1,Yes,Yes,No,2024-09-01,2026-09-16,Invalid
+CLM00483,Mobile Phone,10,12,Active,Mechanical Failure,3,Yes,Yes,Yes,Yes,Yes,0,Yes,No,Yes,2025-11-07,2026-09-16,ManualReview
+CLM01080,Refrigerator,1,6,Active,Software Issue,1,Yes,Yes,No,No,Yes,2,No,No,No,2026-07-26,2026-09-16,ManualReview
+CLM02085,Refrigerator,9,12,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-12-03,2026-09-18,Valid
+CLM01199,Laptop,6,24,Active,Physical Damage,2,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-02-27,2026-09-18,ManualReview
+CLM02406,Mobile Phone,10,24,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-11-20,2026-09-22,Valid
+CLM00900,Mobile Phone,3,18,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-06-14,2026-09-18,Valid
+CLM02290,Air Conditioner,5,6,Active,Overheating,3,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-04-24,2026-09-19,Valid
+CLM01351,Washing Machine,19,24,Active,Physical Damage,2,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-02-04,2026-09-14,Invalid
+CLM00303,Mobile Phone,3,12,Active,Overheating,2,No,Yes,Yes,Yes,No,1,Yes,No,No,2026-06-24,2026-09-19,ManualReview
+CLM00209,Refrigerator,15,6,Expired,Overheating,1,No,No,No,Yes,Yes,2,Yes,No,No,2025-06-02,2026-09-21,Invalid
+CLM02486,Air Conditioner,4,6,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-05-14,2026-09-18,Valid
+CLM01227,Television,24,24,Expired,Electrical Fault,2,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2024-09-24,2026-09-19,Invalid
+CLM01857,Air Conditioner,10,24,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-11-25,2026-09-23,ManualReview
+CLM00237,Laptop,24,24,Expired,Physical Damage,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2024-10-02,2026-09-13,Invalid
+CLM01414,Television,28,24,Expired,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-05-30,2026-09-20,ManualReview
+CLM01380,Washing Machine,29,24,Expired,Electrical Fault,2,No,Yes,No,Yes,Yes,1,Yes,No,No,2024-04-30,2026-09-15,Invalid
+CLM01322,Mobile Phone,5,6,Active,Mechanical Failure,0,Yes,No,No,Yes,Yes,2,Yes,No,No,2026-04-23,2026-09-15,ManualReview
+CLM02082,Washing Machine,15,18,Active,Overheating,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-06-16,2026-09-20,Valid
+CLM00029,Mobile Phone,4,6,Active,Electrical Fault,2,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2026-05-01,2026-09-22,ManualReview
+CLM00172,Washing Machine,20,24,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,Yes,2025-01-25,2026-09-16,ManualReview
+CLM01424,Refrigerator,1,12,Active,Software Issue,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-08-07,2026-09-20,Valid
+CLM02139,Air Conditioner,20,24,Active,Software Issue,1,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-01-06,2026-09-15,Valid
+CLM00410,Refrigerator,4,18,Active,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-05-12,2026-09-17,Valid
+CLM00276,Washing Machine,13,18,Active,Water Damage,1,Yes,Yes,Yes,No,Yes,1,Yes,Yes,No,2025-08-17,2026-09-13,ManualReview
+CLM00858,Refrigerator,16,18,Active,Electrical Fault,1,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-05-09,2026-09-22,Valid
+CLM00730,Air Conditioner,4,24,Active,Water Damage,1,No,Yes,Yes,Yes,No,1,Yes,Yes,No,2026-05-12,2026-09-13,Invalid
+CLM01498,Refrigerator,9,6,Expired,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,Yes,2025-12-19,2026-09-23,Invalid
+CLM01388,Washing Machine,7,12,Active,Overheating,0,Yes,No,Yes,Yes,No,2,Yes,No,No,2026-02-04,2026-09-22,ManualReview
+CLM00401,Television,20,18,Expired,Mechanical Failure,0,Yes,No,No,No,Yes,3,No,No,No,2025-01-17,2026-09-14,Invalid
+CLM01600,Air Conditioner,14,6,Expired,Physical Damage,2,Yes,No,Yes,Yes,Yes,1,Yes,Yes,Yes,2025-07-09,2026-09-17,Invalid
+CLM00674,Refrigerator,9,12,Active,Software Issue,3,Yes,Yes,No,No,Yes,2,Yes,No,No,2025-12-27,2026-09-23,ManualReview
+CLM01339,Laptop,16,24,Active,Water Damage,0,Yes,Yes,Yes,No,Yes,1,Yes,Yes,No,2025-05-03,2026-09-21,ManualReview
+CLM00833,Air Conditioner,16,18,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2025-05-23,2026-09-14,ManualReview
+CLM00710,Mobile Phone,12,6,Expired,Overheating,0,Yes,No,No,No,No,4,Yes,No,No,2025-09-10,2026-09-16,Invalid
+CLM01793,Laptop,17,12,Expired,Mechanical Failure,0,Yes,Yes,No,Yes,No,2,Yes,No,No,2025-04-04,2026-09-18,Invalid
+CLM00568,Refrigerator,12,12,Expired,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-09-01,2026-09-20,Invalid
+CLM01684,Refrigerator,27,24,Expired,Software Issue,0,Yes,No,No,Yes,Yes,2,Yes,No,No,2024-06-06,2026-09-14,Invalid
+CLM00137,Television,3,12,Active,Water Damage,3,Yes,Yes,Yes,Yes,No,1,No,Yes,Yes,2026-06-14,2026-09-19,Invalid
+CLM01813,Laptop,8,6,Expired,Physical Damage,2,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2026-01-26,2026-09-17,Invalid
+CLM00125,Laptop,24,18,Expired,Mechanical Failure,1,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2024-09-07,2026-09-19,Invalid
+CLM01601,Air Conditioner,21,12,Expired,Software Issue,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2024-12-26,2026-09-18,ManualReview
+CLM01751,Air Conditioner,10,12,Active,Electrical Fault,0,Yes,No,No,Yes,Yes,2,Yes,No,No,2025-11-27,2026-09-20,ManualReview
+CLM02327,Mobile Phone,10,18,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-11-03,2026-09-18,Valid
+CLM00637,Mobile Phone,17,24,Active,Mechanical Failure,3,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-04-08,2026-09-21,ManualReview
+CLM00161,Mobile Phone,9,24,Active,Mechanical Failure,1,Yes,No,Yes,No,Yes,2,Yes,No,No,2025-12-12,2026-09-14,ManualReview
+CLM01274,Air Conditioner,2,6,Active,Water Damage,3,Yes,Yes,Yes,No,Yes,1,Yes,Yes,No,2026-07-24,2026-09-22,Invalid
+CLM01507,Laptop,1,18,Active,Mechanical Failure,2,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2026-08-07,2026-09-18,Invalid
+CLM02078,Laptop,15,18,Active,Electrical Fault,3,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-06-20,2026-09-16,Valid
+CLM00060,Mobile Phone,12,24,Active,Electrical Fault,1,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-09-13,2026-09-16,Valid
+CLM02098,Mobile Phone,4,18,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2026-05-21,2026-09-20,Valid
+CLM01798,Refrigerator,1,24,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-08-17,2026-09-22,Valid
+CLM00211,Refrigerator,5,18,Active,Electrical Fault,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-04-12,2026-09-22,Valid
+CLM01474,Television,13,6,Expired,Overheating,1,Yes,Yes,Yes,No,Yes,1,Yes,No,No,2025-08-09,2026-09-15,ManualReview
+CLM01130,Air Conditioner,10,12,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-10-31,2026-09-18,Valid
+CLM01825,Refrigerator,14,18,Active,Physical Damage,0,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2025-07-20,2026-09-23,Invalid
+CLM02192,Mobile Phone,1,6,Active,Overheating,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-08-09,2026-09-13,Valid
+CLM00338,Television,0,6,Active,Overheating,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-08-29,2026-09-19,Valid
+CLM01042,Air Conditioner,14,12,Expired,Water Damage,1,No,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-07-15,2026-09-14,Invalid
+CLM00287,Laptop,14,6,Expired,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-07-29,2026-09-14,ManualReview
+CLM02146,Refrigerator,20,24,Active,Mechanical Failure,2,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2025-01-07,2026-09-17,Valid
+CLM00983,Refrigerator,11,6,Expired,Overheating,1,No,No,Yes,Yes,Yes,1,No,No,No,2025-09-29,2026-09-20,Invalid
+CLM02058,Mobile Phone,20,24,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-01-17,2026-09-20,Valid
+CLM01779,Laptop,18,24,Active,Physical Damage,1,Yes,Yes,No,Yes,No,2,Yes,Yes,No,2025-03-14,2026-09-19,Invalid
+CLM01266,Refrigerator,14,24,Active,Water Damage,0,Yes,No,Yes,No,Yes,2,Yes,Yes,No,2025-07-09,2026-09-14,ManualReview
+CLM00893,Television,13,6,Expired,Physical Damage,0,Yes,Yes,Yes,No,Yes,1,Yes,Yes,Yes,2025-08-20,2026-09-17,Invalid
+CLM00734,Refrigerator,23,18,Expired,Software Issue,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2024-10-25,2026-09-18,Invalid
+CLM00269,Laptop,9,24,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,No,1,No,No,No,2025-12-10,2026-09-18,ManualReview
+CLM01758,Refrigerator,16,12,Expired,Software Issue,2,No,No,No,Yes,No,3,Yes,No,No,2025-05-18,2026-09-14,Invalid
+CLM01607,Laptop,13,12,Expired,Overheating,2,No,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-07-31,2026-09-17,Invalid
+CLM00531,Mobile Phone,16,18,Active,Physical Damage,3,No,Yes,No,Yes,Yes,1,Yes,Yes,No,2025-05-03,2026-09-13,Invalid
+CLM00239,Refrigerator,3,24,Active,Physical Damage,1,Yes,Yes,Yes,No,Yes,1,Yes,Yes,No,2026-06-12,2026-09-17,ManualReview
+CLM00392,Laptop,2,12,Active,Mechanical Failure,0,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2026-07-25,2026-09-22,Valid
+CLM00048,Air Conditioner,16,18,Active,Electrical Fault,1,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-05-07,2026-09-16,Valid
+CLM01853,Refrigerator,24,24,Expired,Software Issue,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-09-24,2026-09-21,ManualReview
+CLM01634,Washing Machine,2,24,Active,Overheating,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-07-09,2026-09-19,ManualReview
+CLM01722,Mobile Phone,13,12,Expired,Physical Damage,0,Yes,No,No,Yes,No,3,Yes,Yes,No,2025-08-22,2026-09-16,Invalid
+CLM00110,Refrigerator,2,12,Active,Electrical Fault,2,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2026-07-05,2026-09-17,ManualReview
+CLM00576,Laptop,3,12,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,No,No,No,2026-05-29,2026-09-23,ManualReview
+CLM01346,Washing Machine,17,24,Active,Software Issue,3,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-04-11,2026-09-15,Valid
+CLM00001,Television,22,24,Active,Electrical Fault,0,Yes,No,Yes,Yes,No,2,Yes,No,No,2024-11-16,2026-09-20,Valid
+CLM00549,Mobile Phone,21,12,Expired,Mechanical Failure,0,Yes,Yes,No,No,Yes,2,Yes,No,Yes,2024-12-07,2026-09-22,Invalid
+CLM01945,Refrigerator,15,6,Expired,Software Issue,1,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2025-06-08,2026-09-13,ManualReview
+CLM01129,Television,12,6,Expired,Physical Damage,0,Yes,No,Yes,No,Yes,2,Yes,Yes,No,2025-09-28,2026-09-17,Invalid
+CLM02257,Washing Machine,22,24,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-12-01,2026-09-23,Valid
+CLM01832,Air Conditioner,7,12,Active,Physical Damage,0,Yes,Yes,No,Yes,Yes,1,No,Yes,No,2026-02-25,2026-09-23,Invalid
+CLM00474,Washing Machine,10,6,Expired,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-11-27,2026-09-20,ManualReview
+CLM01455,Air Conditioner,17,18,Active,Mechanical Failure,1,Yes,Yes,No,Yes,Yes,1,Yes,No,Yes,2025-04-17,2026-09-20,Invalid
+CLM01934,Mobile Phone,8,18,Active,Electrical Fault,1,No,Yes,Yes,No,Yes,1,Yes,No,No,2025-12-30,2026-09-20,ManualReview
+CLM01563,Air Conditioner,17,12,Expired,Water Damage,2,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-04-17,2026-09-14,Invalid
+CLM01196,Mobile Phone,7,6,Expired,Physical Damage,3,Yes,Yes,Yes,Yes,No,1,Yes,Yes,No,2026-02-10,2026-09-23,Invalid
+CLM01151,Air Conditioner,18,18,Expired,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,Yes,No,2025-03-20,2026-09-14,Invalid
+CLM01708,Washing Machine,14,6,Expired,Physical Damage,1,No,Yes,Yes,No,Yes,1,No,Yes,Yes,2025-07-09,2026-09-14,Invalid
+CLM01937,Laptop,12,12,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,No,1,Yes,No,No,2025-09-27,2026-09-15,ManualReview
+CLM00839,Laptop,13,18,Active,Overheating,1,No,Yes,Yes,Yes,No,1,Yes,No,No,2025-08-29,2026-09-23,ManualReview
+CLM00559,Laptop,8,6,Expired,Electrical Fault,0,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2025-12-31,2026-09-15,ManualReview
+CLM01481,Laptop,26,24,Expired,Water Damage,0,Yes,No,Yes,Yes,Yes,1,Yes,Yes,No,2024-07-18,2026-09-14,Invalid
+CLM02041,Mobile Phone,11,12,Active,Software Issue,3,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-10-13,2026-09-20,Valid
+CLM02165,Laptop,4,6,Active,Electrical Fault,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-05-23,2026-09-22,Valid
+CLM01731,Laptop,33,24,Expired,Overheating,0,Yes,Yes,No,Yes,No,2,Yes,No,No,2023-12-10,2026-09-17,Invalid
+CLM01671,Washing Machine,21,18,Expired,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-12-09,2026-09-15,ManualReview
+CLM00165,Laptop,1,18,Active,Software Issue,1,Yes,No,Yes,Yes,Yes,1,Yes,No,No,2026-08-03,2026-09-14,Valid
+CLM01216,Washing Machine,15,6,Expired,Water Damage,0,Yes,Yes,Yes,No,Yes,1,No,Yes,No,2025-06-13,2026-09-17,Invalid
+CLM02493,Refrigerator,13,24,Active,Mechanical Failure,2,Yes,Yes,No,Yes,Yes,1,Yes,No,No,2025-08-15,2026-09-23,Valid
+CLM00419,Refrigerator,10,18,Active,Physical Damage,1,Yes,Yes,No,Yes,Yes,1,Yes,Yes,No,2025-11-09,2026-09-18,ManualReview
+CLM02345,Mobile Phone,9,12,Active,Mechanical Failure,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-12-07,2026-09-17,Valid
+CLM01224,Laptop,1,12,Active,Software Issue,0,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2026-08-17,2026-09-13,Valid
+CLM01716,Washing Machine,5,18,Active,Water Damage,2,Yes,No,Yes,Yes,No,2,Yes,Yes,No,2026-04-10,2026-09-15,Invalid
+CLM01740,Air Conditioner,15,6,Expired,Overheating,2,No,Yes,Yes,Yes,Yes,0,Yes,No,No,2025-06-02,2026-09-21,Invalid
+CLM00702,Mobile Phone,23,24,Active,Mechanical Failure,1,Yes,Yes,Yes,Yes,Yes,0,Yes,No,No,2024-10-12,2026-09-21,Valid

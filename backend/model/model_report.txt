@@ -5,44 +5,74 @@ AssureX Claim Engine - Model Comparison Report
 
 Algorithm: RandomForest
   Validation Accuracy : 0.8667
-  Validation Precision: 0.8674
+  Validation Precision: 0.8703
   Validation Recall   : 0.8667
-  Validation F1-score : 0.8669
+  Validation F1-score : 0.8677
+
+Algorithm: ExtraTrees
+  Validation Accuracy : 0.8747
+  Validation Precision: 0.8769
+  Validation Recall   : 0.8747
+  Validation F1-score : 0.8752
+
+Algorithm: GradientBoosting
+  Validation Accuracy : 0.8800
+  Validation Precision: 0.8873
+  Validation Recall   : 0.8800
+  Validation F1-score : 0.8816
 
 Algorithm: LogisticRegression
-  Validation Accuracy : 0.8533
-  Validation Precision: 0.8532
-  Validation Recall   : 0.8533
-  Validation F1-score : 0.8531
+  Validation Accuracy : 0.8880
+  Validation Precision: 0.8923
+  Validation Recall   : 0.8880
+  Validation F1-score : 0.8892
 
 Algorithm: SVM
-  Validation Accuracy : 0.6489
-  Validation Precision: 0.6320
-  Validation Recall   : 0.6489
-  Validation F1-score : 0.6339
+  Validation Accuracy : 0.6667
+  Validation Precision: 0.6667
+  Validation Recall   : 0.6667
+  Validation F1-score : 0.6609
+
+Algorithm: KNN
+  Validation Accuracy : 0.6133
+  Validation Precision: 0.6221
+  Validation Recall   : 0.6133
+  Validation F1-score : 0.6066
+
+Algorithm: DecisionTree
+  Validation Accuracy : 0.8133
+  Validation Precision: 0.8212
+  Validation Recall   : 0.8133
+  Validation F1-score : 0.8157
+
+Algorithm: NaiveBayes
+  Validation Accuracy : 0.7947
+  Validation Precision: 0.8050
+  Validation Recall   : 0.7947
+  Validation F1-score : 0.7935
 
 
-SELECTED MODEL: RandomForest
+SELECTED MODEL: LogisticRegression
 
 
-Final Test Set Evaluation (RandomForest)
-  Test Accuracy: 0.8978
-  Test F1-score: 0.8970
+Final Test Set Evaluation (LogisticRegression)
+  Test Accuracy: 0.8651
+  Test F1-score: 0.8641
 
 Confusion Matrix (rows=actual, cols=predicted):
   Classes order: ['Invalid', 'ManualReview', 'Valid']
-[[65 10  0]
- [ 5 63  7]
- [ 0  1 74]]
+[[115  11   0]
+ [ 13  97  16]
+ [  0  11 115]]
 
 Classification Report:
 
               precision    recall  f1-score   support
 
-     Invalid       0.93      0.87      0.90        75
-ManualReview       0.85      0.84      0.85        75
-       Valid       0.91      0.99      0.95        75
+     Invalid       0.90      0.91      0.91       126
+ManualReview       0.82      0.77      0.79       126
+       Valid       0.88      0.91      0.89       126
 
-    accuracy                           0.90       225
-   macro avg       0.90      0.90      0.90       225
-weighted avg       0.90      0.90      0.90       225
+    accuracy                           0.87       378
+   macro avg       0.86      0.87      0.86       378
+weighted avg       0.86      0.87      0.86       378
