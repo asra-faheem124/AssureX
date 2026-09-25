@@ -199,14 +199,21 @@ def generate_card(claim: dict, variation: int = 0) -> Image.Image:
                fill=style["divider_color"], width=2)
     next_y += 20
 
-    # ---- Detailed text fields (same as v1, for completeness/readability) ----
+    # ---- Detailed text fields ----
+    # Dynamically measure the widest label so values never overlap labels.
+    max_label_w = 0
+    for _, field_label in DISPLAY_FIELDS:
+        bbox = draw.textbbox((0, 0), f"{field_label}:", font=label_font)
+        max_label_w = max(max_label_w, bbox[2] - bbox[0])
+    value_x = style["margin"] + max_label_w + 18  # 18px breathing room
+
     y = next_y
     for field_key, field_label in DISPLAY_FIELDS:
         value = claim.get(field_key, "N/A")
 
         draw.text((style["margin"], y), f"{field_label}:",
                   font=label_font, fill=style["label_color"])
-        draw.text((style["margin"] + 300, y), str(value),
+        draw.text((value_x, y), str(value),
                   font=value_font, fill=style["value_color"])
 
         y += style["line_gap"]
